@@ -1,0 +1,436 @@
+*{
+	margin:0;
+	padding: 0;
+}
+header{
+	background-color: #009489;
+	width: 100%;
+	height: 20vh;
+}
+
+.fondo-gris{
+	background-color: #DFDFDF;
+	width: 100%;
+    height: 150vh;
+}
+.cabecera-wsp{
+    display: inline-block;
+    position: absolute;
+    bottom: 412px;
+	left: 75px;
+}
+
+.cabecera-izq{
+    background-color: #DFDFDF;
+    width: 100%;
+    height: 14vh;
+    position: absolute;
+    z-index: 2;
+    border: 1px solid rgba(128, 128, 128, 0.27);
+}
+.icono-puntos{
+	position: absolute;
+    top: 19px;
+    left: 94%;
+}
+.icono-chat{
+	position: absolute;
+    top: 19px;
+    left: 83%;
+}
+.nombre-user{
+	margin-left: 22%;
+    margin-top: 14px;
+    font-size: 16px;
+    color: #484646;
+}
+.foto-user{
+    background-image: url(../image/anamaria.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 59%;
+    width: 14%;
+    height: 10vh;
+    z-index: 1;
+    margin-top: 10px;
+}
+.cabecera-der{
+    background-color: #DFDFDF;
+    width: 61%;
+    height: 14vh;
+    position: absolute;
+	left: 33%;
+    z-index: 1;
+	border: 1px solid rgba(128, 128, 128, 0.27);
+}
+.iconos{
+	position: absolute;
+    left: 96%;
+    width: 6%;
+    top: 19px;
+}
+
+.iconos .icono-paperclip{
+	position: absolute;
+    left: -26px;
+}
+/* cuerpo wsp */
+.cuerpo-wsp{
+    display: inline-block;
+    position: absolute;
+    bottom: 354px;
+    left: -39px;
+}
+
+
+.seccion-izq{
+    background-color: whitesmoke;
+    width: 100%;
+    /* height: 84vh; */
+    position: absolute;
+    left: 10%;
+}
+/* USUARIOS */
+.user1{
+	background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 15vh;
+    left: 0px;
+    top: 4px;
+    border: 1px solid #d0cbcb;
+}
+
+.img-user1{
+	background-image: url(../image/aldo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 13%;
+    height: 45px;
+    border-radius: 50%;
+    position: absolute;
+    left: 3%;
+    top: 11px;
+}
+.txt-user1{
+	font-size: 12px;
+    margin-left: 83px;
+    position: absolute;
+    top: 38px;
+}
+.user2{
+	background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 15vh;
+    left: 0px;
+    top: 73px;
+    border: 1px solid #d0cbcb;
+}
+
+.img-user2{
+	background-image: url(../image/anamaria.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 13%;
+    height: 45px;
+    border-radius: 50%;
+    position: absolute;
+    left: 3%;
+    top: 11px;
+}
+
+.txt-user2{
+	font-size: 12px;
+    margin-left: 83px;
+    position: absolute;
+    top: 38px;
+}
+.user3{
+	background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 15vh;
+    left: 0px;
+	top: 142px;
+    border: 1px solid #d0cbcb;
+}
+
+.img-user3{
+	background-image: url(../image/andrea.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 13%;
+    height: 45px;
+    border-radius: 50%;
+    position: absolute;
+    left: 3%;
+    top: 11px;
+}
+
+.txt-user3{
+	font-size: 12px;
+    margin-left: 83px;
+    position: absolute;
+    top: 38px;
+}
+.user4{
+	background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 15vh;
+    left: 0px;
+	top: 211px;
+    border: 1px solid #d0cbcb;
+}
+
+.img-user4{
+	background-image: url(../image/avatar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 13%;
+    height: 45px;
+    border-radius: 50%;
+    position: absolute;
+    left: 3%;
+    top: 11px;
+}
+.txt-user4{
+	font-size: 12px;
+    margin-left: 83px;
+    position: absolute;
+    top: 38px;
+}
+.user5{
+	background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 15vh;
+    left: 0px;
+	top: 280px;
+    border: 1px solid #d0cbcb;
+}
+
+.img-user5{
+	background-image: url(../image/curricula.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 13%;
+    height: 45px;
+    border-radius: 50%;
+    position: absolute;
+    left: 3%;
+    top: 11px;
+}
+.txt-user5{
+	font-size: 12px;
+    margin-left: 83px;
+    position: absolute;
+    top: 38px;
+}
+.user6{
+	background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 15vh;
+    left: 0px;
+	top: 349px;
+    border: 1px solid #d0cbcb;
+}
+
+.img-user6{
+	background-image: url(../image/gian.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 13%;
+    height: 45px;
+    border-radius: 50%;
+    position: absolute;
+    left: 3%;
+    top: 11px;
+}
+.txt-user6{
+	font-size: 12px;
+    margin-left: 83px;
+    position: absolute;
+    top: 38px;
+}
+.user7{
+	background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 15vh;
+    left: 0px;
+	top: 419px;
+    border: 1px solid #d0cbcb;
+}
+
+.img-user7{
+	background-image: url(../image/jose.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 13%;
+    height: 45px;
+    border-radius: 50%;
+    position: absolute;
+    left: 3%;
+    top: 11px;
+}
+.txt-user7{
+	font-size: 12px;
+    margin-left: 83px;
+    position: absolute;
+    top: 38px;
+}
+.user8{
+	background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 15vh;
+    left: 0px;
+	top: 489px;
+    border: 1px solid #d0cbcb;
+}
+
+.img-user8{
+	background-image: url(../image/katy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 13%;
+    height: 45px;
+    border-radius: 50%;
+    position: absolute;
+    left: 3%;
+    top: 11px;
+}
+.txt-user8{
+	font-size: 12px;
+    margin-left: 83px;
+    position: absolute;
+    top: 38px;
+}
+.user9{
+	background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 15vh;
+    left: 0px;
+	top: 559px;
+    border: 1px solid #d0cbcb;
+}
+
+.img-user9{
+	background-image: url(../image/mariana.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 13%;
+    height: 45px;
+    border-radius: 50%;
+    position: absolute;
+    left: 3%;
+    top: 11px;
+}
+.txt-user9{
+	font-size: 12px;
+    margin-left: 83px;
+    position: absolute;
+    top: 38px;
+}
+.seccion-der{
+	background-image: url(../image/chat-panel-bg.png);
+    width: 61%;
+    height: 125vh;
+    position: absolute;
+    left: 43%;
+}
+
+.fondo-chat{
+	width: 26%;
+    height: 123vh;
+    position: absolute;
+    left: 72%;
+    top: 8px;
+}
+
+.cajacomentarios{
+background-color: #dcd8d8;
+    width: 99%;
+    height: 15vh;
+    position: absolute;
+    left: 19px;
+    top: 558px;
+}
+.fa{
+	color: gray;
+    font-size: 19px;
+}
+
+.icono-1{
+	margin-left: 3%;
+    margin-right: 8px;
+    margin-top: 25px;
+    width: 0;
+}
+
+.comentarios{
+	width: 84%;
+    height: 8vh;
+	margin-left: 27px;
+    margin-top: 17px;
+}
+
+.icono-2{
+	margin-left: 18px;
+	width: 0;
+    margin-top: 25px;
+}
+/* MENSAJE RECIBIDO */
+.mensaje-usuario{
+    background-color: #DAF5C9;
+    position: absolute;
+    top: 31px;
+    width: 50%;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.titulo-msje-usuario{
+    margin-left: 9%;
+    margin-top: 10px;
+    color: cadetblue;
+}
+
+.mensaje-usuario span{
+	    font-size: 14px;
+    margin-left: 15px;
+}
+
+.mensaje-usuario .segundo{
+	position: absolute;
+    top: 60px;
+    left: 0px;
+}
+
+#mensaje2{
+	top: 104px;
+}
+/* IMPRIMIENDO COMENTARIOS */ 
+li{
+	list-style: none;
+}
+
+.cajanuevocomentario{
+    background-color: #DAF5C9;
+    width: 134%;
+    position: absolute;
+    right: 12%;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-top-left-radius: 7px;
+    top: 491px;
+}
+.cajanuevocomentario li{
+    margin-left: 11px;
+    margin-top: 5px;
+}
